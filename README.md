@@ -6,16 +6,16 @@ Project Description:
 
 In this project, I am using my hand as a virtual mouse than can do everything that a mouse does without even touching your system. I am using the webcam of my system to detect my hands. It will then create a bounding box around my hand and focus on two fingers: The fore finger and the middle finger. The fore finger will act as a cursor and moving it around, we will be moving the cursor around. Now, inorder to successfully click using hand tracking, it is detecting the distance between the fore finger and the middle finger. If they are joined together, then it will perform a click.
 
-Furthermore, a smoothness factor was added as the movement was really shaky.
+
 
 Requirements:
 Following modules need to be installed for it to work properly:
 
-OpenCV
+-OpenCV
 
-Mediapipe
+-Mediapipe
 
-Autopy
+-Autopy
 
 OpenCV:
 
@@ -39,9 +39,9 @@ Important Note:
 
 I faced alot of dependency issues throughout this project. Some of the issues and their solutions are as follows:
 
-autopy not installing: This is because autopy currently doesn't support Python versions above 3.8
+-autopy not installing: This is because autopy currently doesn't support Python versions above 3.8
 
-webcam not opening: It was a bug in mediapipe and was fixed in latest python versions
+-webcam not opening: It was a bug in mediapipe and was fixed in latest python versions
 
 Hence, inorder for the project to run smoothly, you need to degrade the Python version to 3.8
 
@@ -49,12 +49,12 @@ How to Degrade Python Version:
 
 Follow the following steps:
 
-Uninstall Python from add/remove programs
+-Uninstall Python from add/remove programs
 
-Go to AppData and remove any python folder you see.
+-Go to AppData and remove any python folder you see.
 
-Download Python 3.8 from this link : Python 3.8
+-Download Python 3.8 from this link : Python 3.8
 Install it.
-Open command promt and run "pip" inorder to confirm installation.
+-Open command promt and run "pip" inorder to confirm installation.
 
-Your Python version has been degraded :)
+-Your Python version has been degraded :)
